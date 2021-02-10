@@ -34,7 +34,7 @@ lon2 = lon2(:);
 
 %%
 
-a = 6378137.0;        % semi-major axis (km), WGS84
+a = 6378.1370;        % semi-major axis (km), WGS84
 f = 1./298.257223563; % flattening of the ellipsoid, WGS84
 b = (1-f)*a;          % semi-minor axis
 
